@@ -26,17 +26,17 @@
 <body>
     <header>
         <!-- banner section -->
-        <section class="flex bg-black max-w-7xl mx-auto items-center rounded-[30px] mt-10 sm:flex-col lg:flex-row">  <!--p-->
-            <div class="p-30">
+        <section class="flex bg-black max-w-7xl mx-auto rounded-[30px] mt-10 max-sm:flex-col lg:flex-row max-md:flex-row items-center">  <!--p-->
+            <div class="px-30">
                 <h1 class="font-bold text-7xl text-white">The Greatest <br> show on the <br>
                     earth</h1>
                 <p class="text-white mt-2.5">Contrary to popular belief, Lorem Ipsum is not simply <br>
                     random text. It has roots in a piece of classical Latin literature from 45  <br> BC, making it over 2000
                     years old.</p>
-                <button class="bg-red-500 rounded-[5px] mt-3 text-white border-0 px-6 py-3">Watch Live <i class="fa-solid fa-arrow-right"></i></button>
+                <button class="bg-red-500 rounded-[5px] mt-3 text-white border-0 px-6 py-3">Watch Live <i class="fa-solid fa-arrow-right ml-2"></i></button>
             </div>
-            <div>
-                <img src="./assets/img/banner/banner-img.png" alt="" class="w-full block"> <!--p-->
+            <div class="flex-1">
+                <img src="./assets/img/banner/banner-img.png" alt="" class="w-full"> <!--p-->
             </div>
         </section>
     </header>
@@ -50,8 +50,10 @@
 
             <!-- card container -->
             <div class="grid grid-cols-3 gap-13 w-[75%]">
-                <div>
-                    <img src="./assets/img/matches/matches_1.jpg" alt="" class="w-full rounded-t-xl">
+
+                <!-- card -->
+                <div class="border-1 border-gray-200 rounded-xl ">
+                    <img src="./assets/img/matches/matches_1.jpg" alt="" class="w-full rounded-t-xl h-[175px]"> <!--p-->
                     <!-- content -->
                     <div class="p-5">
                         <button class="bg-white text-gray-900 rounded-md px-4 py-1 border-1 my-4 font-bold">Transfer</button>
@@ -63,8 +65,8 @@
                     </div>
                 </div>
 
-                <div>
-                    <img src="./assets/img/matches/matches_2.webp" alt="" class="w-full rounded-t-xl"> <!--p-->
+                <div class="border-1 border-gray-200 rounded-xl ">
+                    <img src="./assets/img/matches/matches_2.webp" alt="" class="w-full rounded-t-xl h-[175px]">
                     <!-- content -->
                     <div class="p-5">
                         <button class="bg-white text-gray-900 rounded-md px-4 py-1 border-1 my-4 font-bold">Transfer</button>
@@ -76,8 +78,8 @@
                     </div>
                 </div>
 
-                <div>
-                    <img src="./assets/img/matches/matches_3.jpg" alt="" class="w-full rounded-t-xl">
+                <div class="border-1 border-gray-200 rounded-xl ">
+                    <img src="./assets/img/matches/matches_3.jpg" alt="" class="w-full rounded-t-xl h-[175px]">
                     <!-- content -->
                     <div class="p-5">
                         <button class="bg-white text-gray-900 rounded-md px-4 py-1 border-1 my-4 font-bold">Transfer</button>
@@ -89,8 +91,8 @@
                     </div>
                 </div>
 
-                <div>
-                    <img src="./assets/img/matches/matches_4.jpeg" alt="" class="w-full rounded-t-xl">
+                <div class="border-1 border-gray-200 rounded-xl ">
+                    <img src="./assets/img/matches/matches_4.jpeg" alt="" class="w-full rounded-t-xl h-[175px]">
                     <!-- content -->
                     <div class="p-5">
                         <button class="bg-white text-gray-900 rounded-md px-4 py-1 border-1 my-4 font-bold">Transfer</button>
@@ -102,8 +104,8 @@
                     </div>
                 </div>
 
-                <div>
-                    <img src="./assets/img/matches/matches_5.webp" alt="" class="w-full rounded-t-xl">
+                <div class="border-1 border-gray-200 rounded-xl ">
+                    <img src="./assets/img/matches/matches_5.webp" alt="" class="w-full rounded-t-xl h-[175px]">
                     <!-- content -->
                     <div class="p-5">
                         <button class="bg-white text-gray-900 rounded-md px-4 py-1 border-1 my-4 font-bold">Transfer</button>
@@ -115,8 +117,8 @@
                     </div>
                 </div>
 
-                <div>
-                    <img src="./assets/img/matches/matches_6.jpg" alt="" class="w-full rounded-t-xl">
+                <div class="border-1 border-gray-200 rounded-xl ">
+                    <img src="./assets/img/matches/matches_6.jpg" alt="" class="w-full rounded-t-xl h-[175px]">
                     <!-- content -->
                     <div class="p-5">
                         <button class="bg-white text-gray-900 rounded-md px-4 py-1 border-1 my-4 font-bold">Transfer</button>
@@ -132,6 +134,22 @@
             </div>
         </section>
     </main>
+
+    <footer class="bg-black mt-20">
+        <div class="max-w-6xl mx-auto text-center py-28">
+            <h1 class="font-bold text-4xl text-white">Goal</h1>
+            <hr class="text-[rgba(255,255,255,20%)] text-[1px] m-6">
+            <ul class="text-gray-300 flex justify-around">
+                <li>Contact Us</li>
+                <li>Terms of Service</li>
+                <li>Privacy Policy</li>
+                <li>Privacy Settings</li>
+                <li>Goal App</li>
+                <li>Goal Live</li>
+            </ul>
+        </div>
+        
+    </footer>
 </body>
 
 </html>
